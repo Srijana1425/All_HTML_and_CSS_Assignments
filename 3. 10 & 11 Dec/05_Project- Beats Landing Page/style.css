@@ -1,0 +1,571 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #0f0f10;
+  }
+  
+  header {
+    background-color: #0f0f10;
+    padding-bottom: 120px;
+  }
+
+/* ------------------------------------------ PART 1 ------------------------------------------ */
+ .navbar {
+  max-width: 1150px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+/* left section */
+
+.left-section {
+  flex-basis: 45%;
+}
+
+.headphone-img {
+  text-align: center;
+}
+
+.mainImage{
+  margin-top: -230px;
+}
+
+/* right section */
+
+.right-section {
+  flex-basis: 55%;
+  padding-left: 20px;
+}
+
+.right-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu{
+  flex-basis: 75%;
+}
+
+.Lists {
+  list-style: none;
+}
+
+.list-items {
+  color: #f2f2f3;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.list-items:hover {
+  color: #3c383b;
+  cursor: pointer;
+}
+
+.nav-btn {
+  flex-basis: 25%;
+  text-align: right;
+}
+
+.shop {
+  background-color: #1e1e21;
+  color: #f2f2f3;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 14px 57px;
+  border: 0;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.shop:hover {
+  background-color: #3c383b;
+}
+
+/* mainsection */
+.onEar {
+  margin-top: 40px;
+  margin-left: 65px;
+}
+
+.h1{
+  color: #f2f2f3;
+  font-size: 65px;
+  font-weight: 600;
+}
+
+.h3 {
+  color: #f2f2f3;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 35px;
+}
+
+.sectionpart1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.9em;
+  color: #b7babc;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.add {
+  background-color: #1e1e21;
+  color: #f2f2f3;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 13px 23px;
+  border: 0;
+  border-radius: 9px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.add:hover {
+  background-color: #3c383b;
+}
+
+.shoppingBag {
+  width: 18px;
+  height: auto;
+  margin-right: 15px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.id {
+  font-size: 19px;
+  font-weight: 600;
+  margin-left: 15px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* ------------------------------------------ PART 2 ------------------------------------------ */
+.social-media {
+  background-color: #0f0f10;
+}
+
+.social-media-icons {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icons {
+  cursor: pointer;
+}
+
+/* ------------------------------------------ PART 3 ------------------------------------------ */
+
+.sectionpart3 {
+  background-color: #0f0f10;
+}
+
+.specsLogo{
+  margin-top: 120px;
+}
+
+.sectionpart3-img {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.specs {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* left section */
+.specs-left {
+  flex-basis: 50%;
+  padding-left: 50px;
+}
+
+/* bluetooth */
+.bluetooth {
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.sectionpart3-heading {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.sectionpart3-info {
+  color: #b7babc;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+/* battery */
+.battery {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+/* load */
+.Load {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+/* microphone */
+.Microphone {
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+/* right section */
+.specs-right {
+  flex-basis: 50%;
+}
+
+.specsImage {
+  width: 95%;
+}
+
+/* ------------------------------------------ PART 4 ------------------------------------------ */
+
+.case{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.case-mainsection {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.sectionpart4-info {
+  color: #b7babc;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8em;
+  margin-bottom: 40px;
+}
+
+.case-btn {
+  background-color: #1e1e21;
+  color: #f2f2f3;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 14px 25px;
+  border: 0;
+  border-radius: 9px;
+  display: flex;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.case-btn:hover {
+  background-color: #3c383b;
+}
+
+.group-icon {
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* ------------------------------------------ PART 5 ------------------------------------------ */
+
+.offer {
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+.offer-mainsection {
+  background-color: #181a1b;
+  max-width: 850px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 9px;
+  padding: 40px 85px;
+}
+
+/* left section */
+.offer-left {
+  background-color: #181a1b;
+}
+
+.sectionpart5-heading {
+  background-color: #181a1b;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.sectionpart5-info {
+  background-color: #181a1b;
+  color: #b7babc;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+.offer-btn {
+  background-color: #000000;
+  margin-top: 15px;
+  color: #f2f2f3;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 15px 25px;
+  border: 0;
+  border-radius: 9px;
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.offer-right {
+  background-color: #181a1b;
+}
+
+.sectionpart5-img {
+  background-color: #181a1b;
+  max-width: 90%;
+}
+
+/* ------------------------------------------ PART 6 ------------------------------------------ */
+.chooseyourstyle {
+  padding-bottom: 100px;
+}
+
+.sectionpart6-heading {
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+.sectionpart6-mainsection {
+  max-width: 630px;
+  margin: auto;
+}
+
+/* row 1 */
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.sectionpart6-products {
+  flex-basis: 33%;
+  text-align: center;
+  background-color: #181a1b;
+  border-radius: 9px;
+  margin: 5px;
+}
+
+.sectionpart6-headphoneimg {
+  max-width: 50%;
+  margin: 0 auto;
+  background-color: #181a1b00;
+  margin-top: -45px;
+}
+
+.sectionpart6-info {
+  background-color: #181a1b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.sectionpart6-names {
+  background-color: #181a1b;
+  text-align: left;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.sectionpart6-id {
+  color: #b7babc;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.sectionpart6-shoppingbag {
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 9px;
+  max-width: 25%;
+  height: auto;
+  margin-bottom: -5px;
+}
+
+.sectionpart6-shoppingbag:hover {
+  cursor: pointer;
+  background-color: #3c383b;
+}
+
+/* row 2 */
+
+.row2 {
+  padding-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.sectionpart6-products1 {
+  flex-basis: 33%;
+  background-color: #0f0f10;
+}
+
+/* ------------------------------------------ PART 7 ------------------------------------------ */
+footer {
+  /* padding: 50px 0 100px 0; */
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.footer-mainsection {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu-title {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.f1 {
+  flex-basis: 15%;
+}
+
+.f2 {
+  flex-basis: 20%;
+  padding-left: 60px;
+}
+
+.f3 {
+  flex-basis: 20%;
+  padding-left: 90px;
+}
+
+.footer-heading {
+  color: white;
+  font-size: 16px;
+  font-weight:bold ;
+  margin-bottom: 10px;
+}
+
+.footer-items {
+  list-style: none;
+  color: #b7babc;
+  font-weight:lighter ;
+  font-size: 13px;
+  line-height: 2.5em;
+}
+
+.f4 {
+  flex-basis: 45%;
+}
+
+.footer-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+}
+
+.btn1 {
+  flex-basis: 80%;
+}
+
+.e-id{
+  width: 90%;
+  background-color: #181a1b;
+  color: #b7babc;
+  border: 0;
+  padding: 20px 0 20px 15px;
+  border-radius: 9px;
+  display: inline-block;
+  margin-right: -90px;
+}
+
+.btn2 {
+  flex-basis: 0%;
+}
+
+.subscribe {
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  display: flex;
+  padding: 14px 18px;
+  margin-left: -125px;
+  border: 0;
+  border-radius: 9px;
+  cursor: pointer;
+
+}
+
+.rightArrow {
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* row 2 */
+.footer-socialmedia-icons {
+  padding: 30px 0 0 125px;
+}
+
+.fsmi {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
